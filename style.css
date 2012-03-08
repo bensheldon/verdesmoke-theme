@@ -1,0 +1,287 @@
+/*
+Theme Name: Blankslate verdesmoke
+Theme URI: http://wordpress.org/
+Description: Verdek Smoke
+Version: 1.0
+*/
+
+/**
+ * Layout Fixes
+ */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header, #footer {
+	width: 100%;
+}
+
+#footer {
+}
+
+#content {
+	padding-bottom: 1em;
+}
+
+#search {
+	margin-top: .25em;
+}
+
+/**
+ * Fonts and Colors
+ */
+body {
+	font-family: “Helvetica Neue”, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Tahoma, Verdana, Geneva;
+}
+
+a {
+	 color: #0F4B23;
+	 text-shadow: 0 1px 1px rgba(255,255,255, .6);
+	 font-weight: bold;
+	 text-decoration: none;
+}
+
+a:hover {
+ color: #c3dc28;
+	text-shadow: 0 1px 1px rgba(0,0,0, .6);  
+}
+
+#content a {
+	text-shadow: none;
+}
+
+#content a:hover {
+	color: #60BA32;
+}
+
+#header #banner a {
+	font-size: .75em;
+	color: #eee;
+	text-shadow: 0 1px 1px rgba(0,0,0, .6); 
+}
+
+#header #banner a .site-title,
+#footer a {
+	color: #c3dc28;
+		text-shadow: 0 1px 1px rgba(0,0,0, .6); 
+}
+
+#header #title a:hover {
+	color: #bbb;
+}
+
+#header #banner a:hover .site-title,
+#footer a:hover {
+	color: #60BA32;
+}
+
+
+#header #about,
+#sidebar,
+#footer {
+	color: #222;
+	text-shadow: 0 1px 1px rgba(255,255,255, .6); 
+}
+
+div.postmetadata {
+	color: #888;
+	font-weight: bold;
+}
+
+.postmetadata a {
+	color: #888;
+}
+
+#footer {
+	color: #eee;
+		text-shadow: 0 1px 1px rgba(0,0,0, .6); 
+
+}
+
+
+/**
+ * Backgrounds and Borders
+ */
+body {
+	background-image: url(images/green/bg.png);
+}
+
+#header #banner,
+#footer {
+	background: #000 url(images/green/bg-header.png);
+	-webkit-box-shadow: rgba(0, 0, 0, 0.0976562) 1px 0px 1px, 
+		rgba(0, 0, 0, 0.046875) 1px -1px 0px, 
+		rgba(0, 0, 0, 0.0976562) 0px 1px 0px, 
+		rgba(0, 0, 0, 0.0976562) -1px 0px 1px, 
+		rgba(0, 0, 0, 0.046875) -1px -1px 0px, 
+		rgba(0, 0, 0, 0.148438) 0px 2px 1px;
+}
+
+#header #banner h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#content {
+	background: #eee;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.0976562) 1px 0px 1px, 
+		rgba(0, 0, 0, 0.046875) 1px -1px 0px, 
+		rgba(0, 0, 0, 0.0976562) 0px 1px 0px, 
+		rgba(0, 0, 0, 0.0976562) -1px 0px 1px, 
+		rgba(0, 0, 0, 0.046875) -1px -1px 0px, 
+		rgba(0, 0, 0, 0.148438) 0px 2px 1px;
+		
+}
+
+#content-inner {
+	padding: 0 20px;
+}
+
+#footer {
+	margin-top: 2em;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.046875) 1px -1px 0px, 
+		rgba(0, 0, 0, 0.148438) 0px -2px 1px;
+}
+
+hr {
+	height: 1px;
+	border: none;
+	background: #0F4B23;
+}
+
+/** 
+ * Typography
+ */
+ #header .feed {
+ 	 margin-top: .75em;
+ 	text-align: right;
+ }
+ 
+ #header #about {
+ 	font-size: 1.2em;
+ }
+ 
+ .post {
+ 	margin-top: 1em;
+ }
+ 
+ .post-title {
+ 	margin: 0;
+ }
+ 
+ .postmetadata {
+ margin: 0;
+ font-size: .8em;
+ }
+ 
+ 
+ /**
+  * Twitter Widget
+  */
+  ul.twitter {
+  margin: 0;
+  padding: 0;
+  }
+  
+  ul.twitter li.twitter-item {
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	margin-bottom: 1em;
+  }
+  
+  span.twitter-timestamp {
+  	display: block;
+  	font-size: .8em;
+  	color: #eee;
+  		text-shadow: 0 1px 1px rgba(0,0,0, .6); 
+
+  }
+  
+  /* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+    display:block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float:left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
